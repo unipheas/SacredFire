@@ -1,3 +1,4 @@
+// import { LoginPage } from './../pages/login/login';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -5,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import Auth0Cordova from '@auth0/cordova';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,6 +35,11 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      // initalize auth0
+      (<any>window).handleOpenURL = (url) => {
+        Auth0Cordova.onRedirectUri(url);
+      };
     });
   }
 
