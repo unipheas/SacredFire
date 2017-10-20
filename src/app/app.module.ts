@@ -1,3 +1,4 @@
+import { CallbackPage } from './../pages/callback/callback';
 import { LoginPage } from './../pages/login/login';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -17,7 +18,8 @@ import { AuthProvider } from '../providers/auth/auth';
     MyApp,
     HomePage,
     ListPage,
-    LoginPage
+    LoginPage,
+    CallbackPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { AuthProvider } from '../providers/auth/auth';
     MyApp,
     HomePage,
     ListPage,
-    LoginPage
+    LoginPage,
+    CallbackPage
   ],
   providers: [
     StatusBar,
