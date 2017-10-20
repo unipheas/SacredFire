@@ -1,6 +1,6 @@
 {
   "name": "SacredFire",
-  "app_id": "",
+  "app_id": "f1aea581",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
