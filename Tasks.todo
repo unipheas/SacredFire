@@ -1,0 +1,52 @@
+Login:
+  ✔ setup app.component to handle login process. @done (2017-10-25 20:39:29)
+  ☐ after login needs to show home. currently it redirects to the app but needs to be restarted to show anything.
+
+Menu:
+  ✔ HomePage @done (2017-10-25 20:50:12)
+  ☐ AboutPage
+  ☐ SettingPage
+  ☐ InventoryPage
+  ☐ CemeteryPage
+  ☐ StolenBicsPage
+  ☐ BicProfile
+  ☐ AddBicPage
+  ✔ Logout @done (2017-10-25 20:50:21)
+
+HomePage:
+  ☐ build out friend status card
+  ☐ build out bic tracker
+  ☐ button for purchasing bic (later to be implemented)
+  ☐ button to add a new bic
+  ☐ button to remove ads and make a purchase (later to be implemented)
+
+AboutPage:
+  ☐ figure out what content will be inside the about page
+
+SettingPage:
+  ☐ setup themes
+  ☐ setup notifications (should use OneSignal for push notifications)
+  ☐ setup sound settings
+  ☐ setup billing information
+  ☐ setup shipping information
+
+InventoryPage:
+  ☐ show a list of all the lighters associated with the user
+
+CemeteryPage:
+  ☐ show a list of all dead lighters associated with the user
+
+StolenBicsPage:
+  ☐ make a card to show all user's stolen bics
+  ☐ show the bic tracker for the selected bic
+
+BicProfile:
+  ☐ should have an image of the bic
+  ☐ show bic information (id, date purchased, status, current owner)
+  ☐ show a list of all the past owners
+  ☐ if bic is stolen show bic tracker
+
+AddBicPage:
+  ☐ should be able to scan a barcode
+  ☐ able to input name
+  ☐ able to take a picture or add a picture for the bic
