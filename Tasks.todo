@@ -1,6 +1,6 @@
 Login:
   ✔ setup app.component to handle login process. @done (2017-10-25 20:39:29)
-  ☐ after login needs to show home. currently it redirects to the app but needs to be restarted to show anything.
+  ✔ after login needs to show home. currently it redirects to the app but needs to be restarted to show anything. @done (2017-10-26 17:17:45)
 
 Menu:
   ✔ HomePage @done (2017-10-25 20:50:12)
