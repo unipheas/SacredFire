@@ -91,4 +91,5 @@
         <variable name="ANDROID_HOST" value="polyphasicdevs.auth0.com" />
         <variable name="ANDROID_PATHPREFIX" value="/cordova/sacred.fire/callback" />
     </plugin>
+    <allow-navigation href="http://192.168.31.174:8100" />
 </widget>

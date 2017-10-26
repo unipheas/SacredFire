@@ -35,13 +35,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'About', component: AboutPage},
-      { title: 'Add Bic', component: AddBicPage},
       { title: 'Inventory', component: InventoryPage},
-      { title: 'Cemetery', component: CemeteryPage},
       { title: 'Stolen', component: StolenPage},
-      { title: 'Profile', component: ProfilePage}
-
+      { title: 'Cemetery', component: CemeteryPage},
+      { title: 'Add Bic', component: AddBicPage}
     ];
 
   }
@@ -61,6 +58,7 @@ export class MyApp {
       // setup login here.
       if (!this.auth.isAuthenticated()) {
         this.auth.login();
+        this.openPage(HomePage);
       }
     });
   }
@@ -68,6 +66,9 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
+    if (page == 'about') {
+      this.nav.setRoot(AboutPage);
+    }
     this.nav.setRoot(page.component);
   }
 

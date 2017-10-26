@@ -14,6 +14,21 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class InventoryPage {
 
+  temp = [
+    {
+      name: 'fireOne',
+      stolen: 5
+    },
+    {
+      name: 'fireTwo',
+      stolen: 2
+    },
+    {
+      name: 'fireThree',
+      stolen: 8
+    }
+  ]
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
