@@ -1,3 +1,4 @@
+import { AboutPage } from './../pages/about/about';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -12,7 +13,8 @@ import { AuthProvider } from '../providers/auth/auth';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -21,7 +23,8 @@ import { AuthProvider } from '../providers/auth/auth';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AboutPage
   ],
   providers: [
     StatusBar,
