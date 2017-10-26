@@ -5,6 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from './../pages/about/about';
+import { InventoryPage } from './../pages/inventory/inventory';
+import { AddBicPage } from './../pages/add-bic/add-bic';
+import { CemeteryPage } from './../pages/cemetery/cemetery';
+import { StolenPage } from './../pages/stolen/stolen';
+import { ProfilePage } from './../pages/profile/profile';
 
 import Auth0Cordova from '@auth0/cordova';
 import { AuthProvider } from './../providers/auth/auth';
@@ -30,7 +35,13 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'About', component: AboutPage}
+      { title: 'About', component: AboutPage},
+      { title: 'Add Bic', component: AddBicPage},
+      { title: 'Inventory', component: InventoryPage},
+      { title: 'Cemetery', component: CemeteryPage},
+      { title: 'Stolen', component: StolenPage},
+      { title: 'Profile', component: ProfilePage}
+
     ];
 
   }
