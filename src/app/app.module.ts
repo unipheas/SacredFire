@@ -5,10 +5,10 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { PassedFlamePage } from './../pages/passedFlame/passedFlame';
-import { CemeteryPage } from './../pages/cemetery/cemetery';
-import { InventoryPage } from './../pages/inventory/inventory';
-import { AddBicPage } from './../pages/add-bic/add-bic';
+import { PassedFlamesPage } from './../pages/passedFlames/passedFlames';
+import { DeadFlamesPage } from './../pages/deadFlames/deadFlames';
+import { LiveFlamesPage } from './../pages/liveFlames/liveFlames';
+import { AddFlamePage } from './../pages/addFlame/addFlame';
 import { AboutPage } from './../pages/about/about';
 import { ProfilePage } from './../pages/profile/profile';
 
@@ -21,10 +21,10 @@ import { AuthProvider } from '../providers/auth/auth';
     MyApp,
     HomePage,
     AboutPage,
-    AddBicPage,
-    InventoryPage,
-    CemeteryPage,
-    PassedFlamePage,
+    AddFlamePage,
+    LiveFlamesPage,
+    DeadFlamesPage,
+    PassedFlamesPage,
     ProfilePage
   ],
   imports: [
@@ -36,10 +36,10 @@ import { AuthProvider } from '../providers/auth/auth';
     MyApp,
     HomePage,
     AboutPage,
-    AddBicPage,
-    InventoryPage,
-    CemeteryPage,
-    PassedFlamePage,
+    AddFlamePage,
+    LiveFlamesPage,
+    DeadFlamesPage,
+    PassedFlamesPage,
     ProfilePage
 
   ],

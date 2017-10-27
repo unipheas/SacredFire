@@ -2,17 +2,17 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the PassedFlamePage page.
+ * Generated class for the PassedFlamesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-passedFlame',
-  templateUrl: 'passedFlame.html',
+  selector: 'page-passedFlames',
+  templateUrl: 'passedFlames.html',
 })
-export class PassedFlamePage {
+export class PassedFlamesPage {
 
   temp = [
     {

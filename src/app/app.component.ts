@@ -6,10 +6,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from './../pages/about/about';
-import { InventoryPage } from './../pages/inventory/inventory';
-import { AddBicPage } from './../pages/add-bic/add-bic';
-import { CemeteryPage } from './../pages/cemetery/cemetery';
-import { PassedFlamePage } from './../pages/passedFlame/passedFlame';
+import { LiveFlamesPage } from './../pages/liveFlames/liveFlames';
+import { AddFlamePage } from './../pages/addFlame/addFlame';
+import { DeadFlamesPage } from './../pages/deadFlames/deadFlames';
+import { PassedFlamesPage } from './../pages/passedFlames/passedFlames';
 import { ProfilePage } from './../pages/profile/profile';
 
 import Auth0Cordova from '@auth0/cordova';
@@ -36,10 +36,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'Live Flames', component: InventoryPage},
-      { title: 'Passed Flames', component: PassedFlamePage},
-      { title: 'Dead Flames', component: CemeteryPage},
-      { title: 'Add Flame', component: AddBicPage}
+      { title: 'Live Flames', component: LiveFlamesPage},
+      { title: 'Passed Flames', component: PassedFlamesPage},
+      { title: 'Dead Flames', component: DeadFlamesPage},
+      { title: 'Add Flame', component: AddFlamePage}
     ];
 
   }
@@ -57,10 +57,10 @@ export class MyApp {
       };
 
       // setup login here.
-      if (!this.auth.isAuthenticated()) {
-        this.auth.login();
-        this.openPage(HomePage);
-      }
+      // if (!this.auth.isAuthenticated()) {
+      //   this.auth.login();
+      //   this.openPage(HomePage);
+      // }
     });
   }
 

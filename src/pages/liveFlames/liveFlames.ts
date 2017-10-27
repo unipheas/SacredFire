@@ -2,30 +2,30 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the InventoryPage page.
+ * Generated class for the LiveFlamesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-inventory',
-  templateUrl: 'inventory.html',
+  selector: 'page-liveFlames',
+  templateUrl: 'liveFlames.html',
 })
-export class InventoryPage {
+export class LiveFlamesPage {
 
   temp = [
     {
       name: 'fireOne',
-      stolen: 5
+      passed: 5
     },
     {
       name: 'fireTwo',
-      stolen: 2
+      passed: 2
     },
     {
       name: 'fireThree',
-      stolen: 8
+      passed: 8
     }
   ]
 
@@ -33,7 +33,7 @@ export class InventoryPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad InventoryPage');
+    console.log('ionViewDidLoad LiveFlamesPage');
   }
 
 }

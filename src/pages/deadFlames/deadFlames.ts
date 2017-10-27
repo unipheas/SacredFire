@@ -2,30 +2,30 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the CemeteryPage page.
+ * Generated class for the DeadFlamesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-cemetery',
-  templateUrl: 'cemetery.html',
+  selector: 'page-deadFlames',
+  templateUrl: 'deadFlames.html',
 })
-export class CemeteryPage {
+export class DeadFlamesPage {
 
   temp = [
     {
       name: 'fireOne',
-      stolen: 5
+      passed: 5
     },
     {
       name: 'fireTwo',
-      stolen: 2
+      passed: 2
     },
     {
       name: 'fireThree',
-      stolen: 8
+      passed: 8
     }
   ]
 
@@ -33,7 +33,7 @@ export class CemeteryPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CemeteryPage');
+    console.log('ionViewDidLoad DeadFlamesPage');
   }
 
 }
