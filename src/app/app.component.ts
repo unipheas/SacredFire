@@ -1,3 +1,4 @@
+
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -8,7 +9,7 @@ import { AboutPage } from './../pages/about/about';
 import { InventoryPage } from './../pages/inventory/inventory';
 import { AddBicPage } from './../pages/add-bic/add-bic';
 import { CemeteryPage } from './../pages/cemetery/cemetery';
-import { StolenPage } from './../pages/stolen/stolen';
+import { PassedFlamePage } from './../pages/passedFlame/passedFlame';
 import { ProfilePage } from './../pages/profile/profile';
 
 import Auth0Cordova from '@auth0/cordova';
@@ -35,10 +36,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'Inventory', component: InventoryPage},
-      { title: 'Stolen', component: StolenPage},
-      { title: 'Cemetery', component: CemeteryPage},
-      { title: 'Add Bic', component: AddBicPage}
+      { title: 'Live Flames', component: InventoryPage},
+      { title: 'Passed Flames', component: PassedFlamePage},
+      { title: 'Dead Flames', component: CemeteryPage},
+      { title: 'Add Flame', component: AddBicPage}
     ];
 
   }

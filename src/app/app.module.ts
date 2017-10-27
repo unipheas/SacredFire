@@ -1,10 +1,11 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { StolenPage } from './../pages/stolen/stolen';
+import { PassedFlamePage } from './../pages/passedFlame/passedFlame';
 import { CemeteryPage } from './../pages/cemetery/cemetery';
 import { InventoryPage } from './../pages/inventory/inventory';
 import { AddBicPage } from './../pages/add-bic/add-bic';
@@ -23,7 +24,7 @@ import { AuthProvider } from '../providers/auth/auth';
     AddBicPage,
     InventoryPage,
     CemeteryPage,
-    StolenPage,
+    PassedFlamePage,
     ProfilePage
   ],
   imports: [
@@ -38,7 +39,7 @@ import { AuthProvider } from '../providers/auth/auth';
     AddBicPage,
     InventoryPage,
     CemeteryPage,
-    StolenPage,
+    PassedFlamePage,
     ProfilePage
 
   ],

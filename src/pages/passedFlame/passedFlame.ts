@@ -2,30 +2,30 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the StolenPage page.
+ * Generated class for the PassedFlamePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-stolen',
-  templateUrl: 'stolen.html',
+  selector: 'page-passedFlame',
+  templateUrl: 'passedFlame.html',
 })
-export class StolenPage {
+export class PassedFlamePage {
 
   temp = [
     {
       name: 'fireOne',
-      stolen: 5
+      passed: 5
     },
     {
       name: 'fireTwo',
-      stolen: 2
+      passed: 2
     },
     {
       name: 'fireThree',
-      stolen: 8
+      passed: 8
     }
   ]
 
@@ -33,7 +33,7 @@ export class StolenPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad StolenPage');
+
   }
 
 }
