@@ -57,10 +57,10 @@ export class MyApp {
       };
 
       // setup login here.
-      // if (!this.auth.isAuthenticated()) {
-      //   this.auth.login();
-      //   this.openPage(HomePage);
-      // }
+      if (!this.auth.isAuthenticated()) {
+        this.auth.login();
+        this.openPage(HomePage);
+      }
     });
   }
 
