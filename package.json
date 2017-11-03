@@ -1,8 +1,8 @@
 {
   "name": "SacredFire",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "1.0.0",
+  "author": "Polyphasic Developers",
+  "homepage": "https://www.polyphasicdevs.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -24,12 +24,15 @@
     "@ionic-native/core": "4.3.0",
     "@ionic-native/splash-screen": "4.3.0",
     "@ionic-native/status-bar": "4.3.0",
+    "@ionic/pro": "^1.0.11",
     "@ionic/storage": "2.0.1",
     "auth0-js": "^8.10.1",
     "cordova-android": "^6.3.0",
     "cordova-ios": "4.5.2",
+    "cordova-plugin-add-swift-support": "^1.7.0",
     "cordova-plugin-customurlscheme": "^4.3.0",
     "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-ionic": "^2.0.3",
     "cordova-plugin-ionic-webview": "^1.1.15",
     "cordova-plugin-safariviewcontroller": "^1.4.7",
     "cordova-plugin-splashscreen": "^4.0.3",
@@ -59,6 +62,13 @@
         "ANDROID_SCHEME": "sacred.fire",
         "ANDROID_HOST": "polyphasicdevs.auth0.com",
         "ANDROID_PATHPREFIX": "/cordova/sacred.fire/callback"
+      },
+      "cordova-plugin-ionic": {
+        "APP_ID": "f1aea581",
+        "CHANNEL_NAME": "Master",
+        "UPDATE_METHOD": "background",
+        "UPDATE_API": "https://api.ionicjs.com",
+        "MAX_STORE": "2"
       }
     },
     "platforms": [

@@ -10,7 +10,6 @@ import { LiveFlamesPage } from './../pages/liveFlames/liveFlames';
 import { AddFlamePage } from './../pages/addFlame/addFlame';
 import { DeadFlamesPage } from './../pages/deadFlames/deadFlames';
 import { PassedFlamesPage } from './../pages/passedFlames/passedFlames';
-import { ProfilePage } from './../pages/profile/profile';
 
 import Auth0Cordova from '@auth0/cordova';
 import { AuthProvider } from './../providers/auth/auth';
