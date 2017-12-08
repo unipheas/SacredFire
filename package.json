@@ -1,8 +1,8 @@
 {
   "name": "SacredFire",
   "version": "1.0.0",
-  "author": "Polyphasic Developers",
-  "homepage": "https://www.polyphasicdevs.com/",
+  "author": "Brian",
+  "homepage": "https://unipheas.github.io/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
