@@ -1,4 +1,3 @@
-
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
@@ -11,6 +10,7 @@ import { LiveFlamesPage } from './../pages/liveFlames/liveFlames';
 import { AddFlamePage } from './../pages/addFlame/addFlame';
 import { AboutPage } from './../pages/about/about';
 import { ProfilePage } from './../pages/profile/profile';
+import { FlameProfilePage } from './../pages/flameProfile/flameProfile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -37,7 +37,8 @@ export class IonicMonitoring implements ErrorHandler {
     LiveFlamesPage,
     DeadFlamesPage,
     PassedFlamesPage,
-    ProfilePage
+    ProfilePage,
+    FlameProfilePage
   ],
   imports: [
     BrowserModule,
@@ -52,8 +53,8 @@ export class IonicMonitoring implements ErrorHandler {
     LiveFlamesPage,
     DeadFlamesPage,
     PassedFlamesPage,
-    ProfilePage
-
+    ProfilePage,
+    FlameProfilePage
   ],
   providers: [
     StatusBar,
