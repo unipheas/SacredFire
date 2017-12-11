@@ -47,15 +47,24 @@ $colors: (
 // iOS only Sass variables can go here
 
 // $menu-ios-background: #CF1111;
-// $background-ios-color: #13355D;
+$background-ios-color: #13355D;
+$card-ios-header-color: #fff;
+$card-ios-header-font-size: 20px;
 
+$card-ios-font-size: 2.5rem;
+$card-ios-text-color: #fff;
 
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
 // $menu-md-background: #CF1111;
-// $background-md-color: #13355D;
+$background-md-color: #13355D;
+$card-md-header-color: #fff;
+$card-md-header-font-size: 20px;
+
+$card-md-font-size: 2.5rem;
+$card-md-text-color: #fff;
 
 // App Windows Variables
 // --------------------------------------------------
@@ -87,6 +96,8 @@ ion-menu ion-title {
 #bottomMenu {
   margin-top: 50px;
 }
+
+$toolbar-background: color($colors, danger);
 
 // Ionicons
 // --------------------------------------------------
